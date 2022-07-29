@@ -19,10 +19,10 @@ Start application in IDE or via command line:
 
 ## Endpoints
 
-### GET: /api/v1/cinema-room/seats/
+### GET: /seats
 Returns the information about the cinema seats.
 
-### POST: /api/v1/cinema-room/purchase/
+### POST: /purchase
 Allow customers to purchase tickets
 
 **Request body example**: 
@@ -33,7 +33,7 @@ Allow customers to purchase tickets
 }
 ```
 
-### POST: /api/v1/cinema-room/return/
+### POST: /return
 Allow customers to refund their tickets
 
 **Response body example**:
@@ -43,7 +43,7 @@ Allow customers to refund their tickets
 }
 ```
 
-### POST: /api/v1/cinema-room/stats/
+### POST:/stats
 Show movie theater statistics
 
 ## Possible improvements
