@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/539847/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 01 Jan 1970 00:00:00 UTC
+update_date: "Mon, 31 Oct 2022 16:24:06 UTC"
 stages:
 - id: 945
   step: 13375
@@ -19,9 +19,9 @@ stages:
   is_completed: true
 topics:
   0:
-  - title: Write, compile, and run
+  - title: "Write, compile, and run"
     theory_id: 3739
-  - title: JVM, JRE, and JDK
+  - title: "JVM, JRE, and JDK"
     theory_id: 3499
   - title: Units of information
     theory_id: 6865
@@ -31,18 +31,12 @@ topics:
     theory_id: 6633
   - title: HyperText Transfer Protocol
     theory_id: 6569
-  - title: HTML basics
-    theory_id: 6434
-  - title: HTTP URL
-    theory_id: 6740
-  - title: Tags and Attributes
-    theory_id: 7536
-  - title: HTML page structure
-    theory_id: 6491
   - title: Introduction to Spring Boot
     theory_id: 7944
   - title: Getting started with Spring Boot
     theory_id: 6336
+  - title: HTTP URL
+    theory_id: 6740
   - title: Basic project structure
     theory_id: 6339
   - title: IoC Container
@@ -113,6 +107,8 @@ topics:
     theory_id: 3511
   - title: Iterating over arrays
     theory_id: 3602
+  - title: Introduction to OOP
+    theory_id: 3614
   - title: Build tools
     theory_id: 4284
   - title: Command line overview
@@ -129,22 +125,36 @@ topics:
     theory_id: 7917
   - title: Dependency management
     theory_id: 5076
-  - title: Web development
-    theory_id: 13931
   - title: Multidimensional array
     theory_id: 1933
   - title: External resources
     theory_id: 6216
+  - title: Web development
+    theory_id: 13931
+  - title: HTML basics
+    theory_id: 6434
   - title: Libraries
     theory_id: 8504
   - title: Frameworks
     theory_id: 6701
-  - title: JSON
-    theory_id: 6854
+  - title: Tags and Attributes
+    theory_id: 7536
+  - title: HTML page structure
+    theory_id: 6491
+  - title: What is a bug
+    theory_id: 5504
+  - title: Functional testing
+    theory_id: 13438
+  - title: Unit testing
+    theory_id: 7545
+  - title: Dependency injection
+    theory_id: 20580
   - title: YAML
     theory_id: 12722
   - title: Introduction to software architecture
     theory_id: 15368
+  - title: JSON
+    theory_id: 6854
   - title: MVC
     theory_id: 17197
   1:
@@ -170,10 +180,18 @@ topics:
     theory_id: 3514
   - title: String
     theory_id: 3523
-  - title: Introduction to OOP
-    theory_id: 3614
+  - title: Errors in programs
+    theory_id: 3536
+  - title: What is an exception
+    theory_id: 3497
   - title: Package
     theory_id: 3621
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Introduction to logging
+    theory_id: 5538
+  - title: Debugging techniques
+    theory_id: 13775
   - title: Defining classes
     theory_id: 3618
   - title: Constructor
@@ -188,3 +206,5 @@ topics:
     theory_id: 3583
   - title: Multiple constructors
     theory_id: 3538
+  - title: The keyword super
+    theory_id: 3588

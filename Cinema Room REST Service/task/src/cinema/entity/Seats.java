@@ -6,6 +6,8 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -16,7 +18,6 @@ public class Seats {
     private final int totalColumns;
     private final List<Seat> availableSeats;
 
-    private static Seats instance;
 
     @JsonProperty("total_rows")
     public int getTotalRows() {
@@ -33,7 +34,7 @@ public class Seats {
         return availableSeats.stream().filter(Seat::isActive).collect(Collectors.toList());
     }
 
-    private Seats(int totalRows, int totalColumns) {
+    public Seats(int totalRows, int totalColumns) {
         this.totalRows = totalRows;
         this.totalColumns = totalColumns;
         this.availableSeats = new ArrayList<>();
@@ -43,15 +44,5 @@ public class Seats {
             }
         }
     }
-
-    public static Seats getInstance(int totalRows, int totalColumns) {
-        if(instance==null){
-            instance=new Seats(totalRows,totalColumns);
-        }
-        return instance;
-    }
-
-
-
 
 }
